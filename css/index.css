@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+}
+
+/* header section */
+header{
+    display: flex;
+    height: 80px;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #f5f5f5;
+}
+.icon{
+    margin-left: 4%;
+}
+.myntrahome{
+    height: 40px;
+}
+.action{
+    margin-right: 4%;
+}
+.nav{
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+}
+.nav a{
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: .3px;
+  color: #282c3f;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 23px;
+  border-bottom: 2px solid white;
+}
+.nav a:hover{
+  border-bottom: 2px solid #ee5f73;
+
+}
+
+.nav a sup{
+    color: #ff3f6c;
+}
+
+.search{
+    height: 20px;
+    min-width: 200px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.search span{
+    /* box-sizing: content-box; */
+    height: 40px;
+    width: 40px;
+    /* padding: 10px; */
+    font-weight: 300px;
+    background-color: #f5f5f6;
+}
+.material-symbols-outlined{
+    box-sizing: border-box;
+    padding: 11px;
+}
+.searchInput{
+    flex-grow: 1;
+    height: 40px;
+    border: 0;
+    background-color: #f5f5f6;
+}
+.action{
+    display: flex;
+    justify-content: space-evenly;
+}
+.actionicon{
+    display: flex;
+    height: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+.actiontext{
+    position: relative;
+    bottom: 12px;
+    left: 2px;
+    color: #000;
+    font-weight: 700;
+    display: inline-block;
+    padding-top: 5px;
+    line-height: 6px;
+    font-size: 10px;
+}
+
+/* main section */
+.bannerContainer{
+margin: 20px 0px;
+}
+.bannerImage{
+    width: 100%;
+}
+.itemheading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0px 10px 30px;
+    max-height: 53em;
+    font-weight: 700;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* footer section */
+.footerContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footerColumn a{
+    display: flex;
+    direction: column;
+    color: #696b79;
+  display: block;
+  font-size: 15px;
+  text-decoration: none;
+  padding-bottom: 5px;
+  cursor: pointer;
+  line-height: normal;
+}
+.end span{
+    text-align: end;
+    padding: 15px;
+    color: #94969f;
+}
